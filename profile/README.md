@@ -39,6 +39,21 @@ Every system fails at its boundaries. We address all five:
 4. **Logistics** — Assembly, routing, serviceability, manufacturing constraints
 5. **Supply Chain** — Sourcing, lifecycle, procurement, vendor constraints
 
+### Public Projects
+
+The substrate behind the platform is also available as standalone tools:
+
+| Project | What it is | Install |
+|---------|------------|---------|
+| **[flow-g](https://github.com/openIE-dev/flow-g)** | Typed FunctionGraph IR for heterogeneous inference — CPU + Apple Silicon Metal + WGPU + AMX | `cargo install flowg` |
+| **[lux-lang](https://github.com/openIE-dev/lux-lang)** | Reactive, energy-aware language compiling to flowG | `cargo install openie-lux` |
+| **[jmax](https://github.com/openIE-dev/jmax)** | Math-native language replacing MATLAB / Julia / R / Mathematica | `cargo install jmax` |
+| **[joule-lang](https://github.com/openIE-dev/joule-lang)** | Self-hosted energy-aware language with compile-time budgets | `cargo install joulec` |
+| **[jouledb](https://github.com/openIE-dev/jouledb)** | Energy-metered database — HDC primitives, joules per query | `cargo install jouledb` |
+| **[pattern-lang](https://github.com/openIE-dev/pattern-lang)** | Pattern catalog + edge-first AI cascade runtime | see repo |
+
+All distributed under BSL-1.1 (converts to Apache-2.0 four years post-release). Examples under Apache-2.0.
+
 ### Company
 
 **Open Interface Engineering, Inc.** — Delaware B-Corp, Sarasota FL (est. January 2026)
