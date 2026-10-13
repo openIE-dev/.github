@@ -54,6 +54,24 @@ The substrate behind the platform is also available as standalone tools:
 
 All distributed under BSL-1.1 (converts to Apache-2.0 four years post-release). Examples under Apache-2.0.
 
+### RCE
+
+RCE is a small programming language defined by a written specification. A
+program describes the states it can be in, the events that can happen, and
+how each event changes the state. The same program gives the same result
+on every computer, always finishes, and is checked for mistakes before it
+runs. Start with [The RCE Book](https://github.com/openIE-dev/rce-book).
+
+| Repository | What it holds |
+|---|---|
+| **[rce](https://github.com/openIE-dev/rce)** | the specification (draft 0.5), its EBNF grammar, Lean proofs, and the reference checker and interpreter `rce` |
+| **[rce-book](https://github.com/openIE-dev/rce-book)** | a step-by-step guide; every example is checked by `rce` |
+| **[rce-examples](https://github.com/openIE-dev/rce-examples)** | programs grouped by area, from money and text to networks, science and hardware |
+| **[tree-sitter-rce](https://github.com/openIE-dev/tree-sitter-rce)** | the grammar for editors that use tree-sitter |
+| **[rce-ide](https://github.com/openIE-dev/rce-ide)** | an editor for RCE built on the reference checker ([downloads](https://github.com/openIE-dev/rce-ide/releases)) |
+
+The RCE repositories are licensed under MIT OR Apache-2.0.
+
 ### Company
 
 **Open Interface Engineering, Inc.** — Delaware B-Corp, Sarasota FL (est. January 2026)
