@@ -58,7 +58,7 @@ runs. Start with [The RCE Book](https://github.com/openIE-dev/rce-book).
 
 | Repository | What it holds |
 |---|---|
-| **[rce](https://github.com/openIE-dev/rce)** | the specification (draft 0.7), its EBNF grammar, Lean proofs, and the reference checker and interpreter `rce` |
+| **[rce](https://github.com/openIE-dev/rce)** | the specification (draft 0.9, language versions 0.5 to 0.9), its EBNF grammar, Lean proofs, and the reference checker and interpreter `rce` |
 | **[rce-book](https://github.com/openIE-dev/rce-book)** | a step-by-step guide; every example is checked by `rce` |
 | **[rce-examples](https://github.com/openIE-dev/rce-examples)** | programs grouped by area, from money and text to networks, science and hardware |
 | **[tree-sitter-rce](https://github.com/openIE-dev/tree-sitter-rce)** | the grammar for editors that use tree-sitter |
