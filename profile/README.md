@@ -39,7 +39,7 @@ Standalone projects, all free and open source:
 
 | Project | What it is | Install |
 |---------|------------|---------|
-| **[flow-g](https://github.com/openIE-dev/flow-g)** | Typed FunctionGraph IR for heterogeneous inference on CPU + Apple Silicon Metal + WGPU + AMX | `cargo install flowg` |
+| **[flow-g](https://github.com/openIE-dev/flow-g)** | Typed FunctionGraph IR for heterogeneous inference on CPU + Apple Silicon Metal + WGPU + AMX | `cargo binstall flowg` (binary releases; `cargo install flowg` installs a stub that points to them) |
 | **[lux-lang](https://github.com/openIE-dev/lux-lang)** | Reactive, energy-aware language compiling to flowG | `cargo install openie-lux` |
 | **[jmax](https://github.com/openIE-dev/jmax)** | Math-native language replacing MATLAB / Julia / R / Mathematica | `cargo install jmax` |
 | **[joule-lang](https://github.com/openIE-dev/joule-lang)** | Self-hosted energy-aware language with compile-time budgets | `cargo install joulec` |
