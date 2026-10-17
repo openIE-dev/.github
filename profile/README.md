@@ -7,7 +7,7 @@
 
 **Eco-engineering company building developer tools that report the energy cost of compute in joules.**
 
-We build developer tools where every operation — every build, every query, every deploy — reports its energy cost in joules. Not tokens. Not seats. Not abstract pricing units. Physics.
+We build developer tools where every operation — every build, every query, every deploy — reports its energy cost in joules. Physics.
 
 ---
 
@@ -25,9 +25,8 @@ We build developer tools where every operation — every build, every query, eve
 
 ### How It Works
 
-- **Local-first**: the app ships with a built-in AI model. Most tasks run on your machine — no cloud, no cost.
+- **Local-first**: the app ships with a built-in AI model. Most tasks run on your machine — no cloud required.
 - **Cloud when needed**: frontier AI, collaboration, and deployment are available on demand.
-- **Pay for use**: you only pay when cloud infrastructure is used.
 
 ### Five Interface Tracts
 
@@ -52,7 +51,7 @@ The substrate behind the platform is also available as standalone tools:
 | **[jouledb](https://github.com/openIE-dev/jouledb)** | Energy-metered database — HDC primitives, joules per query | `cargo install jouledb` |
 | **[pattern-lang](https://github.com/openIE-dev/pattern-lang)** | Pattern catalog + edge-first AI cascade runtime | see repo |
 
-All distributed under BSL-1.1 (converts to Apache-2.0 four years post-release). Examples under Apache-2.0.
+All software is released under MIT OR Apache-2.0, copyright Open Interface Engineering, Inc.
 
 ### RCE
 
