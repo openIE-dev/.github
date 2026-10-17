@@ -5,50 +5,45 @@
 
 ## Open Interface Engineering
 
-**Eco-engineering company building developer tools that report the energy cost of compute in joules.**
+**A research project making free, open software that teaches how to save compute energy, and reports energy in joules.**
 
-We build developer tools where every operation — every build, every query, every deploy — reports its energy cost in joules. Physics.
+We write free, open source software and research. The tools report the energy cost of operations such as builds and queries in joules, a unit of physics, so that the cost of compute can be measured and reduced.
 
 ---
 
-### What We Build
+### What We Make
 
-**[coding.openie.dev](https://coding.openie.dev)** — Five energy-metered IDEs on one platform:
+**[coding.openie.dev](https://coding.openie.dev)**: five IDE projects that report energy:
 
 | IDE | Domain | Description |
 |-----|--------|-------------|
 | **Lux** | Web | Replaces the HTML/CSS/JS/TS ecosystem with a single language. Ships native + WASM. |
 | **Joule** | Systems | Systems language with formal verification, energy budgets per function, and WebGPU compute. |
-| **Arc** | General Purpose | Every programming language — Python, Rust, Go, C++, Java, COBOL, Fortran, and 50+ more. |
+| **Arc** | General Purpose | Every programming language, including Python, Rust, Go, C++, Java, COBOL, Fortran, and 50+ more. |
 | **Data** | Data Science | Notebooks with energy receipts per cell. Python, R, Julia, SQL with ML pipeline metering. |
-| **DevOps** | Infrastructure | Terraform, Kubernetes, Docker, Ansible, CI/CD — all as a queryable infrastructure graph. |
-
-### How It Works
-
-- **Local-first**: the app ships with a built-in AI model. Most tasks run on your machine — no cloud required.
-- **Cloud when needed**: frontier AI, collaboration, and deployment are available on demand.
+| **DevOps** | Infrastructure | Terraform, Kubernetes, Docker, Ansible, CI/CD, all as a queryable infrastructure graph. |
 
 ### Five Interface Tracts
 
 Every system fails at its boundaries. We address all five:
 
-1. **Data** — Protocols, formats, encoding, timing, API contracts
-2. **Energy** — Power delivery, voltage domains, thermal management, EMC
-3. **Material** — Mechanical fits, material compatibility, environmental specs
-4. **Logistics** — Assembly, routing, serviceability, manufacturing constraints
-5. **Supply Chain** — Sourcing, lifecycle, procurement, vendor constraints
+1. **Data**: protocols, formats, encoding, timing, API contracts
+2. **Energy**: power delivery, voltage domains, thermal management, EMC
+3. **Material**: mechanical fits, material compatibility, environmental specs
+4. **Logistics**: assembly, routing, serviceability, manufacturing constraints
+5. **Supply Chain**: sourcing, lifecycle, procurement, vendor constraints
 
 ### Public Projects
 
-The substrate behind the platform is also available as standalone tools:
+Standalone projects, all free and open source:
 
 | Project | What it is | Install |
 |---------|------------|---------|
-| **[flow-g](https://github.com/openIE-dev/flow-g)** | Typed FunctionGraph IR for heterogeneous inference — CPU + Apple Silicon Metal + WGPU + AMX | `cargo install flowg` |
+| **[flow-g](https://github.com/openIE-dev/flow-g)** | Typed FunctionGraph IR for heterogeneous inference on CPU + Apple Silicon Metal + WGPU + AMX | `cargo install flowg` |
 | **[lux-lang](https://github.com/openIE-dev/lux-lang)** | Reactive, energy-aware language compiling to flowG | `cargo install openie-lux` |
 | **[jmax](https://github.com/openIE-dev/jmax)** | Math-native language replacing MATLAB / Julia / R / Mathematica | `cargo install jmax` |
 | **[joule-lang](https://github.com/openIE-dev/joule-lang)** | Self-hosted energy-aware language with compile-time budgets | `cargo install joulec` |
-| **[jouledb](https://github.com/openIE-dev/jouledb)** | Energy-metered database — HDC primitives, joules per query | `cargo install jouledb` |
+| **[jouledb](https://github.com/openIE-dev/jouledb)** | Energy-metered database with HDC primitives, joules per query | `cargo install jouledb` |
 | **[pattern-lang](https://github.com/openIE-dev/pattern-lang)** | Pattern catalog + edge-first AI cascade runtime | see repo |
 
 All software is released under MIT OR Apache-2.0, copyright Open Interface Engineering, Inc.
@@ -70,12 +65,6 @@ runs. Start with [The RCE Book](https://github.com/openIE-dev/rce-book).
 | **[rce-ide](https://github.com/openIE-dev/rce-ide)** | an editor for RCE built on the reference checker ([downloads](https://github.com/openIE-dev/rce-ide/releases)) |
 
 The RCE repositories are licensed under MIT OR Apache-2.0.
-
-### Company
-
-**Open Interface Engineering, Inc.** — Delaware B-Corp, Sarasota FL (est. January 2026)
-
-The mission — reducing compute energy cost — is written into the corporate charter. Profit serves the mission.
 
 ---
 
