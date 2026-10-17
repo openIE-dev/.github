@@ -5,7 +5,7 @@
 
 ## Open Interface Engineering
 
-**Eco-engineering company reducing global compute energy cost by 90% or more.**
+**Eco-engineering company building developer tools that report the energy cost of compute in joules.**
 
 We build developer tools where every operation — every build, every query, every deploy — reports its energy cost in joules. Not tokens. Not seats. Not abstract pricing units. Physics.
 
@@ -27,7 +27,7 @@ We build developer tools where every operation — every build, every query, eve
 
 - **Local-first**: the app ships with a built-in AI model. Most tasks run on your machine — no cloud, no cost.
 - **Cloud when needed**: frontier AI, collaboration, and deployment are available on demand.
-- **Pay for energy**: you only pay when cloud infrastructure is used. Typical bill: **$1–$10/month**.
+- **Pay for use**: you only pay when cloud infrastructure is used.
 
 ### Five Interface Tracts
 
@@ -64,7 +64,7 @@ runs. Start with [The RCE Book](https://github.com/openIE-dev/rce-book).
 
 | Repository | What it holds |
 |---|---|
-| **[rce](https://github.com/openIE-dev/rce)** | the specification (draft 0.5), its EBNF grammar, Lean proofs, and the reference checker and interpreter `rce` |
+| **[rce](https://github.com/openIE-dev/rce)** | the specification (draft 0.7), its EBNF grammar, Lean proofs, and the reference checker and interpreter `rce` |
 | **[rce-book](https://github.com/openIE-dev/rce-book)** | a step-by-step guide; every example is checked by `rce` |
 | **[rce-examples](https://github.com/openIE-dev/rce-examples)** | programs grouped by area, from money and text to networks, science and hardware |
 | **[tree-sitter-rce](https://github.com/openIE-dev/tree-sitter-rce)** | the grammar for editors that use tree-sitter |
