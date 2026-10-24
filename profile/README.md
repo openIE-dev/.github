@@ -50,21 +50,18 @@ All software is released under MIT OR Apache-2.0, copyright Open Interface Engin
 
 ### RCE
 
-RCE is a small programming language defined by a written specification. A
-program describes the states it can be in, the events that can happen, and
-how each event changes the state. The same program gives the same result
-on every computer, always finishes, and is checked for mistakes before it
-runs. Start with [The RCE Book](https://github.com/openIE-dev/rce-book).
+RCE (Reality Code Engine) is a programming language and toolchain in which
+every program has one fixed, checkable Form. The same program gives the same
+result on every computer, always finishes, and is checked before it runs.
+There is one language: the specification at one commit (draft 0.9). The
+standard library is batteries-included and hash-pinned.
 
-| Repository | What it holds |
-|---|---|
-| **[rce](https://github.com/openIE-dev/rce)** | the specification (draft 0.9, language versions 0.5 to 0.9), its EBNF grammar, Lean proofs, and the reference checker and interpreter `rce` |
-| **[rce-book](https://github.com/openIE-dev/rce-book)** | a step-by-step guide; every example is checked by `rce` |
-| **[rce-examples](https://github.com/openIE-dev/rce-examples)** | programs grouped by area, from money and text to networks, science and hardware |
-| **[tree-sitter-rce](https://github.com/openIE-dev/tree-sitter-rce)** | the grammar for editors that use tree-sitter |
-| **[rce-ide](https://github.com/openIE-dev/rce-ide)** | an editor for RCE built on the reference checker ([downloads](https://github.com/openIE-dev/rce-ide/releases)) |
+- **Monorepo:** [openIE-dev/rce](https://github.com/openIE-dev/rce) — specification, Lean proofs, reference checker `rce`, stdlib, book, examples, conformance, tree-sitter grammar, IDE sources, and playground.
+- **Playground:** [openie-dev.github.io/rce](https://openie-dev.github.io/rce/)
+- **Book:** [openie-dev.github.io/rce/book](https://openie-dev.github.io/rce/book/)
+- **Build:** clone `rce`, then `cd spec/checker && cargo build --release` (see the repository README).
 
-The RCE repositories are licensed under MIT OR Apache-2.0.
+Former satellites `rce-book`, `rce-examples`, `tree-sitter-rce`, and `rce-ide` are archived; use the monorepo.
 
 ---
 
